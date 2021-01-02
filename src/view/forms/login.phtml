@@ -1,0 +1,15 @@
+<form action="gallery" method="post">
+    <label for="login">Login: </label>
+    <input type="text" name="login" required><br/>
+    <label for="password">Hasło: </label>
+    <input type="password" name="password" required><br/>
+    <?php
+    if(isset($_SESSION['error'])) {
+        echo $_SESSION['error'] . '<br />';
+    }
+    ?>
+    <?php if(isset($_SESSION['error'])): ?>
+        <span><?php echo $_SESSION['error']; ?></span>
+    <?php endif; ?>
+    <input type="submit" value="Zaloguj"/>
+</form>
