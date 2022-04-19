@@ -1,0 +1,25 @@
+<div class="clearfix">
+    <div class="pull-left">
+        <?php include_once ROOT_PATH . '/view/layouts/pagination.phtml'; ?>
+    </div>
+</div>
+
+<?php if(count($pagination['cursor'])): ?>
+    <form method="post" action="/remove_from_remember">
+        <div id="gallery" class="clearfix">
+        <?php foreach ($pagination['cursor'] as $photo): ?>
+            <div class="photo">
+                <a href="/images/<?=$photo['name'] . '-wm.' . $photo['type']?>">
+                    <img src="/images/<?=$photo['name'] . '-th.' . $photo['type']?>">
+                </a>
+                <span>Tytuł: <?=$photo['title'] ?></span>
+                <span>Autor: <?=$photo['author'] ?></span>
+                <input type="checkbox" value="<?=$photo['_id']?>" name="photos[]">
+            </div>
+        <?php endforeach; ?>
+        </div>
+        <input class="navButton" type="submit" value="Usuń z ulubionych" onclick="return confirm('Czy jesteś pewny, że chcesz usunąć z ulubionych wybrane zdjęcia?')">
+    </form>
+<?php else: ?>
+    <div>Brak ulubionych</div>
+<?php endif; ?>

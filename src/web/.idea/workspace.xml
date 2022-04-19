@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8609d476-0481-4594-a7b8-35d755206946" name="Default Changelist" comment="" />
+    <list default="true" id="8609d476-0481-4594-a7b8-35d755206946" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../view/favourites_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../view/forms/favourites.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../business.php" beforeDir="false" afterPath="$PROJECT_DIR$/../business.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/../controllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controllers/gallery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/../dispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/../routing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/forms/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/../view/forms/login.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/gallery_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../view/gallery_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/layouts/default.phtml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/layouts/head.phtml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../view/login_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/registration_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/../view/registration_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../view/show_view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/front_controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/28_kd51v72y-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/28_kd51v72y-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/28_kd51v72y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Gawron-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Gawron-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Gawron.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/IMG_0955-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/IMG_0955-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/IMG_0955.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Nekker_Warrior-th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Nekker_Warrior-wm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Nekker_Warrior.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/W3_SS_Baba_wodna-th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/W3_SS_Baba_wodna-wm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/W3_SS_Baba_wodna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/disscco-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/disscco-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/disscco.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/meme-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/meme-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/meme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/room-th.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/room-wm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/room.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sicily-painting-30-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sicily-painting-30-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sicily-painting-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/the_witcher_3_wild_hunt_monsters_art_warrior-571263.jpg!d-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/the_witcher_3_wild_hunt_monsters_art_warrior-571263.jpg!d-wm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/the_witcher_3_wild_hunt_monsters_art_warrior-571263.jpg!d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/galeria.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/galeria.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +62,14 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1lqIav2djDZPc4J3uNyLMJlBRA1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,10 +97,24 @@
       <workItem from="1608318263049" duration="585000" />
       <workItem from="1608320518114" duration="3141000" />
       <workItem from="1608488023736" duration="22827000" />
+      <workItem from="1612030236477" duration="1108000" />
+      <workItem from="1613647164417" duration="101000" />
+      <workItem from="1642377324593" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

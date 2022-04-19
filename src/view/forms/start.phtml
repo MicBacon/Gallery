@@ -1,0 +1,10 @@
+<form action="start" method="post" enctype="multipart/form-data">
+    <input type="file" name="file"/><br/>
+    <label for="title">Tytuł: </label>
+    <input type="text" name="title"><br/>
+    <label for="author">Autor: </label>
+    <input type="text" name="author" <?php if(isLogin()):?> value="<?=$profile['login'];?>" <?php endif;?>><br/>
+    <label for="watermark">Znak wodny:</label>
+    <input type="text" name="watermark" id="watermark" required><br/>
+    <input class="navButton" type="submit" value="Prześlij plik"/><br/>
+</form>

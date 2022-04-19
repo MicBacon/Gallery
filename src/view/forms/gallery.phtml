@@ -1,0 +1,37 @@
+<div class="clearfix">
+    <div class="pull-left">
+        <?php include_once ROOT_PATH . '/view/layouts/pagination.phtml'; ?>
+    </div>
+    <div class="pull-right actions">
+        <a href="/start" class="navButton">Dodaj nowe zdjęcie</a>
+    </div>
+</div>
+
+<?php if(count($pagination['cursor'])): ?>
+    <form method="post" action="remember">
+        <div id="gallery" class="clearfix">
+            <?php foreach ($pagination['cursor'] as $photo): ?>
+                <div class="photo">
+                    <a href="/images/<?=$photo['name'] . '-wm.' . $photo['type']?>">
+                        <img src="/images/<?=$photo['name'] . '-th.' . $photo['type']?>">
+                    </a>
+                    <label for="photo-<?=$photo['_id']?>" class="pointer">
+                        <span>Tytuł: <?=$photo['title'] ?></span>
+                        <span>Autor: <?=$photo['author'] ?></span>
+                    </label>
+                    <?php if(in_array((string)$photo['_id'], $selectedPhotos)): ?>
+                        <input type="hidden" name="selectedPhotos[]" value="<?=$photo['_id']?>" >
+                    <?php endif; ?>
+                    <?php if(isLogin()):?>
+                    <input id="photo-<?=$photo['_id']?>" type="checkbox" value="<?=$photo['_id']?>" name="photos[]" <?php if(in_array((string)$photo['_id'], $selectedPhotos)):?>checked<?php endif;?> >
+                    <?php endif; ?>
+                </div>
+            <?php endforeach; ?>
+        </div>
+     <?php if(isLogin()):?>
+        <input class="navButton" type="submit" value="Zapamiętaj wybrane">
+     <?php endif; ?>
+    </form>
+<?php else: ?>
+    <div>Brak zdjęć w galerii</div>
+<?php endif; ?>

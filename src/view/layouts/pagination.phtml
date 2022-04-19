@@ -1,0 +1,15 @@
+<?php if(count($pagination['cursor'])): ?>
+<div class="pagination clearfix">
+    <?php if($pagination['page'] > 1): ?>
+        <a class="navButton" href="?page=<?=$pagination['previous']?>"> Poprzednia strona </a>
+    <?php else: ?>
+        <button type="button" class="navButton disabled">Poprzednia strona</button>
+    <?php endif; ?>
+
+    <?php if($pagination['page'] * $pagination['limit'] < $pagination['total']): ?>
+        <a class="navButton" href="?page=<?=$pagination['next']?>">Następna strona</a>
+    <?php else: ?>
+        <button type="button" class="navButton disabled">Następna strona</button>
+    <?php endif; ?>
+</div>
+<?php endif; ?>

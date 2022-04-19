@@ -1,65 +1,32 @@
-html, body{
-  font-family: Luminari, Gill Sans, sans-serif;
-  font-size: 12pt;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background-color: #d5c6a0;
-}
-header picture img{
-  margin-left: auto;
-  margin-right: auto;
+#gallery span{
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
+  margin-top: 2px;
 }
-form{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
+
+.photo{
+  float: left;
+  width: 33.33%;
 }
-a{
-  text-decoration: none;
-  color: inherit;
+.navButton{
+  border: none;
+  margin: 2px 2px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 8pt;
+  color: #1c3030;
+  background-color: #c6b266;
 }
-p::first-letter{
-  font-size: 16pt;
+
+.navButton.disabled {
+  opacity: 0.5;
 }
-nav ul > li:hover > a{
+
+a.navButton:hover, input[type=submit].navButton{
   cursor: pointer;
-  background-color: #cfbb85;
 }
-#content{
-  text-align: center;
-  width: 50%;
-  margin-right: 25%;
-  float: right;
-  padding: 20px;
-  border-style: solid;
-}
-#wrapper{
-  overflow: hidden;
-  min-height: calc(100% - 50px);
-}
-#space{
-  height: 30px;
-}
-#counter, #timer{
-  display: none;
-  text-align: center;
-  padding: 10px;
-}
-#photos{
-  border: red;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-}
-.footer{
-  height: 20px;
-  text-align: center;
-  background-color: #cfbb85;
-}
+
 .menu{
   max-height: 520px;
   border-style: solid;
@@ -80,7 +47,10 @@ nav ul li a.active{
   text-align: center;
   display: inline-block;
 }
-
+.error{
+  display: block;
+  color: darkred;
+}
 @media (min-height: 600px){
   #counter{
     display: block;

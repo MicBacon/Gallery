@@ -1,0 +1,11 @@
+<div class="clearfix">
+    <span class="hello"><?php echo 'Witaj '; if(isLogin()) {echo $profile['name'];} echo ' :)!'; ?></span>
+    <a class="navButton pull-left" href="/"> Strona startowa </a>
+    <?php if(isLogin()): ?>
+        <a class="navButton pull-right" href="/unlog"> Wyloguj </a>
+        <a class="navButton pull-right" href="/favourites"> Ulubione </a>
+    <?php else: ?>
+        <a class="navButton pull-right" href="/login"> Strona logowania </a>
+    <?php endif; ?>
+</div>
+<hr class="line" />
